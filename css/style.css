@@ -331,6 +331,7 @@ section {
     max-width: 450px;
     height: auto;
     overflow: hidden;
+    margin: 0 auto; /* Added this */
 }
 
 .img-box img {
@@ -1206,6 +1207,10 @@ footer a i {
 
     .home-image {
         margin-bottom: 5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .liquid-shape {
@@ -1213,6 +1218,11 @@ footer a i {
         height: 120%;
         top: -10%;
         left: -10%;
+    }
+
+    .img-box {
+        width: 90%; /* Reduced from 100% */
+        max-width: 350px; /* Added max-width control */
     }
 
     .img-box img {
@@ -1278,6 +1288,11 @@ footer a i {
 
     .img-about p {
         font-size: 1rem;
+    }
+
+    .img-box {
+        width: 85%; /* Further reduced for smaller screens */
+        max-width: 300px;
     }
 
     .img-box img {
