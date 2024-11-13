@@ -1203,14 +1203,11 @@ footer a i {
 
     .home {
         grid-template-columns: 1fr;
+        justify-items: center; /* Añadido para centrar los elementos */
     }
 
     .home-image {
-        margin-bottom: 5rem;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
+        margin: 0 auto; /* Asegura que el contenedor de la imagen esté centrado */
     }
 
     .liquid-shape {
